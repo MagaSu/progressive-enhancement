@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(images/bg-2.png) no-repeat fixed,#FFFCF9;
+  background-size: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+h1, h2, p, blockquote, q {
+  color: #000500;
+}
+a {
+  text-decoration: none;
+  color: #92817a;
+}
+a:hover {
+  color: #f1dabf;
+}
+
+/* Container */
+
+.container {
+  margin: 5%;
+  padding: 2%;
+  border-radius: 5px ;
+  background-color: #fffbff;
+}
+
+/* Header - Intro */
+
+.intro 
+{
+  text-align: center;
+}
+.intro-title {
+  font-weight: 500;
+}
+
+/* Content */
+
+.content h2 {
+  text-align: center;
+  margin-bottom: 2%;
+}
